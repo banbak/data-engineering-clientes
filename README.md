@@ -74,5 +74,5 @@ Si prefieres no usar Jupyter y quieres ejecutar el análisis directamente desde 
 ### Convertir notebook a script de Python
 jupyter nbconvert --to script Clientes.ipynb
 
-###Luego, puedes ejecutar el script desde la terminal con:
+### Luego, puedes ejecutar el script desde la terminal con:
 python Clientes.py
