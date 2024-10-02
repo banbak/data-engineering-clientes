@@ -24,13 +24,13 @@ git clone https://github.com/banbak/data-engineering-clientes.git
 cd data-engineering-clientes
 
 2. Crear un entorno virtual (opcional pero recomendado)
-# Crear el entorno virtual
+### Crear el entorno virtual
 python -m venv venv
 
-# Activar el entorno virtual
-# En Windows:
+## Activar el entorno virtual
+### En Windows:
 venv\Scripts\activate
-# En Mac/Linux:
+### En Mac/Linux:
 source venv/bin/activate
 #
 3. Instalar las dependencias
@@ -39,7 +39,7 @@ Instala las dependencias necesarias desde el archivo requirements.txt. Si no lo 
 pip install -r requirements.txt
 Si no tienes un archivo requirements.txt, puedes crear uno con los siguientes paquetes:
 
-# Crear un requirements.txt con los paquetes necesarios
+### Crear un requirements.txt con los paquetes necesarios
 pip freeze > requirements.txt
 Para este proyecto, asegúrate de que las siguientes bibliotecas estén instaladas:
 
@@ -68,7 +68,7 @@ Una vez que ejecutes todas las celdas del notebook, podrás ver los análisis de
 Opcional: Ejecutar directamente desde Python
 Si prefieres no usar Jupyter y quieres ejecutar el análisis directamente desde un script de Python, puedes modificar el notebook y convertirlo en un script .py.
 
-# Convertir notebook a script de Python
+### Convertir notebook a script de Python
 jupyter nbconvert --to script Clientes.ipynb
 
 Luego, puedes ejecutar el script desde la terminal con:
