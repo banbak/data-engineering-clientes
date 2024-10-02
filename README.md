@@ -32,7 +32,7 @@ python -m venv venv
 venv\Scripts\activate
 # En Mac/Linux:
 source venv/bin/activate
-
+#
 3. Instalar las dependencias
 Instala las dependencias necesarias desde el archivo requirements.txt. Si no lo tienes, puedes crear uno con los paquetes usados.
 
